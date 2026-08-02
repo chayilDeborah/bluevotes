@@ -34,3 +34,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- secrets excluded by backup script ---
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+*.p12
+*.keystore
+keystore
+id_rsa
+id_ed25519
+wallet.json
+wallets.json
+secrets.json
+serviceAccount*.json
+*.mnemonic
+.secret
+.secrets
+packages/web/.next/cache/webpack/server-development/7.pack.gz
+packages/web/.next/cache/webpack/server-development/0.pack.gz
